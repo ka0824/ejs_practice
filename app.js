@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 
 // 루트 라우트 설정
 app.get("/", (req, res) => {
-  const data = { title: "EJS Example", message: "Hello, EJS!", test: "abc" };
+  const data = { title: "EJS Example", message: "Hello, EJS!", test: "abcd" };
   res.render("index", data);
 });
 
